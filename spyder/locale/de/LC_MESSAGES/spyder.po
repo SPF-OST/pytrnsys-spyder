@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-08 17:31\n"
+"PO-Revision-Date: 2024-08-08 18:58\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -6423,7 +6423,7 @@ msgstr "Format (%s) ist falsch"
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:769 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:1744
 msgid "Display options ..."
-msgstr ""
+msgstr "Anzeigeoptionen ..."
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:775 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:1734 spyder/widgets/browser.py:191 spyder/widgets/collectionseditor.py:1612
 msgid "Refresh"
@@ -6515,7 +6515,7 @@ msgstr "Die Variable existiert nicht mehr."
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:1168
 msgid "The new value cannot be displayed in the array editor."
-msgstr ""
+msgstr "Der neue Wert kann nicht im Array-Editor angezeigt werden."
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:1179 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:2324 spyder/widgets/collectionseditor.py:1816
 msgid "Refreshing the editor will overwrite the changes that you made. Do you want to proceed?"
@@ -6523,7 +6523,7 @@ msgstr "Das Auffrischen des Editors wird die von Ihnen vorgenommenen Änderungen
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:1183
 msgid "Refresh array editor?"
-msgstr ""
+msgstr "Array-Editor auffrischen?"
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:152 spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:553
 msgid "Opening this variable can be slow\n\n"
@@ -6679,15 +6679,15 @@ msgstr "%s Editor"
 
 #: spyder/plugins/variableexplorer/widgets/dataframeeditor.py:2312
 msgid "The new value cannot be displayed in the dataframe editor."
-msgstr ""
+msgstr "Der neue Wert kann nicht im Datenframe-Editor angezeigt werden."
 
 #: spyder/plugins/variableexplorer/widgets/dataframeeditor.py:2328
 msgid "Refresh dataframe editor?"
-msgstr ""
+msgstr "Datenframe-Editor auffrischen?"
 
 #: spyder/plugins/variableexplorer/widgets/dataframeeditor.py:2335
 msgid "Dataframe editor"
-msgstr ""
+msgstr "Datenframe-Editor"
 
 #: spyder/plugins/variableexplorer/widgets/importwizard.py:108 spyder/plugins/variableexplorer/widgets/importwizard.py:442
 msgid "Import as"
@@ -7099,7 +7099,7 @@ msgstr ""
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:70
 msgid "Formatting"
-msgstr ""
+msgstr "Formatierung"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:73
 msgid "<a href=\"{url}\">Format specification</a> for floats:"
@@ -7115,15 +7115,15 @@ msgstr "Hintergrundfarbe"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:98
 msgid "Use default background color"
-msgstr ""
+msgstr "Standard-Hintergrundfarbe verwenden"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:99
 msgid "Use same background color for all cells"
-msgstr ""
+msgstr "Gleiche Hintergrundfarbe für alle Zellen verwenden"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:105
 msgid "Vary background color according to value"
-msgstr ""
+msgstr "Hintergrundfarbe je nach Wert variieren"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:106
 msgid "Use red for largest number, blue for smallest number, and intermediate colors for the other numbers."
@@ -7131,7 +7131,7 @@ msgstr ""
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:117
 msgid "Coloring algorithm"
-msgstr ""
+msgstr "Färbungsalgorithmus"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:121
 msgid "Global"
@@ -7143,7 +7143,7 @@ msgstr ""
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:131
 msgid "Column by column"
-msgstr ""
+msgstr "Spalte für Spalte"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:132
 msgid "Compare each cell against the largest and smallest numbers in the same column"
@@ -7335,7 +7335,7 @@ msgstr "Inhalt einführen"
 
 #: spyder/widgets/arraybuilder.py:425
 msgid "Array dimensions are not valid"
-msgstr ""
+msgstr "Array-Dimensionen sind nicht gültig"
 
 #: spyder/widgets/browser.py:136
 msgid "Forward"
