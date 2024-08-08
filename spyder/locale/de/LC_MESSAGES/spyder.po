@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-07 23:29\n"
+"PO-Revision-Date: 2024-08-08 17:31\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -328,7 +328,7 @@ msgstr "Berechnen von Dateiunterschieden während der Bearbeitung"
 
 #: spyder/dependencies.py:135
 msgid "Access the metadata for a Python package"
-msgstr ""
+msgstr "Zugriff auf die Metadaten für ein Python-Paket"
 
 #: spyder/dependencies.py:139
 msgid "Compute folding range nesting levels"
@@ -885,7 +885,7 @@ msgstr "Vervollständigung und Lint"
 
 #: spyder/plugins/completion/plugin.py:259
 msgid "Handle code completion, analysis, formatting, introspection, folding and more via the Language Server Protocol and other providers."
-msgstr ""
+msgstr "Code-Vervollständigung, Analyse, Formatierung, Introspektion, Faltung und mehr über das Language Server Protocol und andere Anbieter handhaben."
 
 #: spyder/plugins/completion/providers/fallback/provider.py:42
 msgid "Fallback"
@@ -1834,7 +1834,7 @@ msgstr ""
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:242 spyder/plugins/debugger/widgets/framesbrowser.py:245
 msgid "Waiting for debugger"
-msgstr ""
+msgstr "Warten auf Debugger"
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:349
 msgid "Idle"
@@ -2193,7 +2193,7 @@ msgstr "Zelle ausführen"
 
 #: spyder/plugins/editor/plugin.py:267
 msgid "Run current cell"
-msgstr ""
+msgstr "Aktuelle Zelle ausführen"
 
 #: spyder/plugins/editor/plugin.py:275
 msgid "Run cell and advance"
@@ -2999,7 +2999,7 @@ msgstr "Ordner..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:409
 msgid "Python package..."
-msgstr ""
+msgstr "Python-Paket..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:417
 msgid "Open in Spyder"
@@ -3027,11 +3027,11 @@ msgstr "Verschieben..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:492
 msgid "Show in folder"
-msgstr ""
+msgstr "Im Ordner anzeigen"
 
 #: spyder/plugins/explorer/widgets/explorer.py:512
 msgid "Browse Git repository"
-msgstr ""
+msgstr "Git-Repositorium durchsuchen"
 
 #: spyder/plugins/explorer/widgets/explorer.py:528
 msgid "Edit filter settings..."
@@ -3841,7 +3841,7 @@ msgstr "Untere Kante:"
 
 #: spyder/plugins/ipythonconsole/confpage.py:185
 msgid "of figure height"
-msgstr ""
+msgstr "der Höhe der Abbildung"
 
 #: spyder/plugins/ipythonconsole/confpage.py:190
 msgid "The position of the bottom edge of the subplots,\n"
@@ -4143,7 +4143,7 @@ msgstr "Neue Konsole in der Umgebung"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:416 spyder/plugins/ipythonconsole/widgets/main_widget.py:1231 spyder/plugins/maininterpreter/container.py:264
 msgid "Custom"
-msgstr ""
+msgstr "Benutzerdefiniert"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:422
 msgid "New console (default settings)"
@@ -4275,7 +4275,7 @@ msgstr "Standard"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:1198 spyder/plugins/ipythonconsole/widgets/main_widget.py:1225
 msgid "Internal"
-msgstr ""
+msgstr "Intern"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:1988
 msgid "Do you want to close this console?"
@@ -4533,15 +4533,15 @@ msgstr "Schnell umschaltbares Layout #%s wurde noch nicht definiert."
 
 #: spyder/plugins/layout/widgets/dialog.py:197
 msgid "Move up"
-msgstr ""
+msgstr "Nach oben verschieben"
 
 #: spyder/plugins/layout/widgets/dialog.py:198
 msgid "Move down"
-msgstr ""
+msgstr "Nach unten verschieben"
 
 #: spyder/plugins/layout/widgets/dialog.py:199
 msgid "Delete layout"
-msgstr ""
+msgstr "Layout Löschen"
 
 #: spyder/plugins/layout/widgets/dialog.py:203
 msgid "Layout display and order"
@@ -4553,11 +4553,11 @@ msgstr ""
 
 #: spyder/plugins/maininterpreter/confpage.py:77
 msgid "Internal (i.e. the same used by Spyder)"
-msgstr ""
+msgstr "Intern (d. h. dieselbe, die auch von Spyder verwendet wird)"
 
 #: spyder/plugins/maininterpreter/confpage.py:82
 msgid "Use the following interpreter:"
-msgstr ""
+msgstr "Folgenden Interpreter verwenden:"
 
 #: spyder/plugins/maininterpreter/confpage.py:88
 msgid "Executables"
@@ -4847,11 +4847,11 @@ msgstr "Abbildungen"
 
 #: spyder/plugins/plots/plugin.py:38
 msgid "View, browse and save generated figures."
-msgstr ""
+msgstr "Generierte Abbildungen anzeigen, durchsuchen und speichern."
 
 #: spyder/plugins/plots/widgets/figurebrowser.py:190
 msgid "No plots to show"
-msgstr ""
+msgstr "Keine anzuzeigenden Plots"
 
 #: spyder/plugins/plots/widgets/figurebrowser.py:191
 msgid "Run plot-generating code in the Editor or IPython console to see your figures appear here. This pane only supports static images, so it can't display interactive plots like Bokeh, Plotly or Altair."
@@ -5429,7 +5429,7 @@ msgstr ""
 
 #: spyder/plugins/remoteclient/api/client.py:384
 msgid "Error getting server info"
-msgstr ""
+msgstr "Fehler beim Abrufen von Serverinformationen"
 
 #: spyder/plugins/remoteclient/api/client.py:532
 msgid "We're establishing the connection. Please be patient"
@@ -5465,7 +5465,7 @@ msgstr "Auf dieser Seite fehlen Felder."
 
 #: spyder/plugins/remoteclient/widgets/connectiondialog.py:192
 msgid "This field is empty"
-msgstr ""
+msgstr "Dieses Feld ist leer"
 
 #: spyder/plugins/remoteclient/widgets/connectiondialog.py:227
 msgid "Configure SSH settings for connecting to remote hosts"
@@ -5609,15 +5609,15 @@ msgstr "Benutzername: {}"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:117
 msgid "Connection messages"
-msgstr ""
+msgstr "Verbindungsnachrichten"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:119
 msgid "Copy messages"
-msgstr ""
+msgstr "Nachrichten kopieren"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:128
 msgid "No logs to show"
-msgstr ""
+msgstr "Keine anzuzeigenden Protokolle"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:281
 msgid "The connection hasn't been used"
