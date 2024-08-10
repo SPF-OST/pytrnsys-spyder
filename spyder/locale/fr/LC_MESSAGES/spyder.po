@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-07 23:29\n"
+"PO-Revision-Date: 2024-08-10 12:52\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "Aucune console connectée"
 
 #: spyder/api/shellconnect/main_widget.py:154
 msgid "The current console has no active kernel, so there is no content to show here"
-msgstr ""
+msgstr "La console actuelle n'a pas de noyau actif, donc il n'y a pas de contenu à afficher ici"
 
 #: spyder/api/widgets/main_widget.py:259
 msgid "Main widget toolbar"
@@ -103,11 +103,11 @@ msgstr "Une erreur est survenue lors de la création d'une socket nécessaire à
 
 #: spyder/app/mainwindow.py:370
 msgid "Plugin compatibility check"
-msgstr ""
+msgstr "Vérification de la compatibilité des plugins"
 
 #: spyder/app/mainwindow.py:372
 msgid "It was not possible to load the {} plugin. The problem was:<br><br>{}"
-msgstr ""
+msgstr "Impossible de charger le plugin {}. Le problème était :<br><br>{}"
 
 #: spyder/app/mainwindow.py:394
 msgid "Loading {}..."
@@ -327,7 +327,7 @@ msgstr "Calcul des changements de fichier texte lors de l'édition"
 
 #: spyder/dependencies.py:135
 msgid "Access the metadata for a Python package"
-msgstr ""
+msgstr "Accéder aux métadonnées d'un paquet Python"
 
 #: spyder/dependencies.py:139
 msgid "Compute folding range nesting levels"
@@ -407,7 +407,7 @@ msgstr "Plugin Spyder pour le serveur LSP Python"
 
 #: spyder/dependencies.py:219
 msgid "Properly sort lists of non-English strings"
-msgstr ""
+msgstr "Tri correct des listes de chaînes non anglophones"
 
 #: spyder/dependencies.py:223
 msgid "Parse desktop files on Linux"
@@ -439,7 +439,7 @@ msgstr "Couche d'abstraction pour les liaisons Python Qt."
 
 #: spyder/dependencies.py:252
 msgid "Fast access to code snippet regions"
-msgstr ""
+msgstr "Accès rapide aux régions de snippet de code"
 
 #: spyder/dependencies.py:256
 msgid "Determine package versions"
@@ -455,7 +455,7 @@ msgstr "Noyaux Jupyter pour la console Spyder"
 
 #: spyder/dependencies.py:268
 msgid "Special widgets and utilities for PyQt applications"
-msgstr ""
+msgstr "Widgets et utilitaires spéciaux pour les applications PyQt"
 
 #: spyder/dependencies.py:272
 msgid "Compute distances between strings"
@@ -551,11 +551,11 @@ msgstr "Interface"
 
 #: spyder/plugins/appearance/confpage.py:138
 msgid "Changing the interface font does not work reliably on macOS"
-msgstr ""
+msgstr "La modification de la police de l'interface ne fonctionne pas de manière fiable sur macOS"
 
 #: spyder/plugins/appearance/confpage.py:144
 msgid "Use the system default interface font"
-msgstr ""
+msgstr "Utiliser la police de l'interface par défaut du système"
 
 #: spyder/plugins/appearance/confpage.py:174 spyder/plugins/variableexplorer/widgets/importwizard.py:522
 msgid "Preview"
@@ -627,7 +627,7 @@ msgstr "Vérifier les mises à jour au démarrage"
 
 #: spyder/plugins/application/confpage.py:78
 msgid "Check for stable releases only"
-msgstr ""
+msgstr "Vérifier uniquement les versions stables"
 
 #: spyder/plugins/application/confpage.py:110 spyder/plugins/layout/container.py:163
 msgid "Panes"
@@ -700,7 +700,8 @@ msgstr "Réglez ceci pour les écrans à haute résolution élevés lorsque la m
 #: spyder/plugins/application/confpage.py:219
 msgid "Enter values for different screens separated by semicolons ';'.\n"
 " Float values are supported"
-msgstr ""
+msgstr "Entrez des valeurs pour les écrans différents séparés par des points-virgules ';'.\n"
+" Les valeurs flottantes sont prises en charge"
 
 #: spyder/plugins/application/confpage.py:267 spyder/plugins/editor/confpage.py:373 spyder/plugins/ipythonconsole/confpage.py:438 spyder/plugins/ipythonconsole/widgets/run_conf.py:52
 msgid "Advanced settings"
@@ -884,7 +885,7 @@ msgstr "Complétion et linting"
 
 #: spyder/plugins/completion/plugin.py:259
 msgid "Handle code completion, analysis, formatting, introspection, folding and more via the Language Server Protocol and other providers."
-msgstr ""
+msgstr "Gérer la complétion de code, l'analyse, le formatage, l'introspection, le pliage, etc. via le protocole du serveur linguistique et d'autres fournisseurs."
 
 #: spyder/plugins/completion/providers/fallback/provider.py:42
 msgid "Fallback"
@@ -1483,7 +1484,7 @@ msgstr "Console interne"
 
 #: spyder/plugins/console/plugin.py:91
 msgid "An internal Python console running Spyder itself."
-msgstr ""
+msgstr "Une console Python interne exécutant Spyder lui-même."
 
 #: spyder/plugins/console/plugin.py:114
 msgid "<h3>Spyder crashed during last session</h3>"
@@ -1690,7 +1691,7 @@ msgstr "Exécuter le code pendant le débogage"
 
 #: spyder/plugins/debugger/confpage.py:26
 msgid "You can run several lines of code on each new prompt while debugging. Please introduce each one separated by semicolons and a space, for example:<br><i>import matplotlib.pyplot as plt; import numpy as np</i>"
-msgstr ""
+msgstr "Vous pouvez exécuter plusieurs lignes de code à chaque nouvelle invite lors du débogage. Veuillez introduire chacun séparé par des points-virgules et un espace, par exemple :<br><i>import matplotlib.pyplot as plt; import numpy as np</i>"
 
 #: spyder/plugins/debugger/confpage.py:34 spyder/plugins/ipythonconsole/confpage.py:236
 msgid "Lines:"
@@ -1698,7 +1699,7 @@ msgstr "Lignes :"
 
 #: spyder/plugins/debugger/confpage.py:42
 msgid "Interaction"
-msgstr ""
+msgstr "Interaction"
 
 #: spyder/plugins/debugger/confpage.py:46
 msgid "Prevent editor from closing files while debugging"
@@ -1730,7 +1731,7 @@ msgstr "Traiter les événements d'exécution pendant le débogage"
 
 #: spyder/plugins/debugger/confpage.py:68
 msgid "This option lets you decide if the debugger should process the 'execute events' after each prompt, such as matplotlib <tt>show</tt> command."
-msgstr ""
+msgstr "Cette option vous permet de décider si le débogueur doit traiter les « événements d'exécution » après chaque invitation, comme par exemple la commande matplotlib <tt>afficher</tt>."
 
 #: spyder/plugins/debugger/confpage.py:74
 msgid "Use exclamation mark prefix for Pdb commands"
@@ -1742,11 +1743,11 @@ msgstr "Cette option vous permet de décider si les commandes Pdb peuvent être 
 
 #: spyder/plugins/debugger/confpage.py:83
 msgid "Execution Inspector"
-msgstr ""
+msgstr "Inspecteur d'exécution"
 
 #: spyder/plugins/debugger/confpage.py:85 spyder/plugins/debugger/widgets/main_widget.py:210
 msgid "Exclude internal frames when inspecting execution"
-msgstr ""
+msgstr "Exclure les frames internes lors de l'inspection de l'exécution"
 
 #: spyder/plugins/debugger/plugin.py:56 spyder/plugins/debugger/widgets/main_widget.py:196
 msgid "Debugger"
@@ -1754,7 +1755,7 @@ msgstr "Débogueur"
 
 #: spyder/plugins/debugger/plugin.py:60
 msgid "View, explore and navigate stack frames while debugging."
-msgstr ""
+msgstr "Afficher, explorer et naviguer les piles de frames pendant le débogage."
 
 #: spyder/plugins/debugger/plugin.py:160
 msgid "&Debug file"
@@ -1810,59 +1811,59 @@ msgstr "Le débogage n'est pas actif"
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:144
 msgid "Start a debugging session with the ⏯ button, allowing you to step through your code and see the functions here that Python has run."
-msgstr ""
+msgstr "Démarre une session de débogage avec le bouton ⏯️ vous permettant de passer en revue votre code et de voir les fonctions exécutées par Python."
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:214
 msgid "Frames"
-msgstr ""
+msgstr "Frames"
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:215
 msgid "Debugger stack"
-msgstr ""
+msgstr "Pile du débogueur"
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:228
 msgid "Exception occured"
-msgstr ""
+msgstr "Une erreur est survenue"
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:235
 msgid "Snapshot of frames"
-msgstr ""
+msgstr "Capture instantanée des frames"
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:242 spyder/plugins/debugger/widgets/framesbrowser.py:245
 msgid "Waiting for debugger"
-msgstr ""
+msgstr "En attente du débogueur"
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:349
 msgid "Idle"
-msgstr ""
+msgstr "Inactif"
 
 #: spyder/plugins/debugger/widgets/framesbrowser.py:368
 msgid "Scope"
-msgstr ""
+msgstr "Scope"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:211
 msgid "Exclude frames that are not part of the user code"
-msgstr ""
+msgstr "Exclure les frames qui ne font pas partie du code utilisateur"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:219
 msgid "Search frames"
-msgstr ""
+msgstr "Rechercher dans les frames"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:227
 msgid "Inspect execution"
-msgstr ""
+msgstr "Inspecter l'exécution"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:235
 msgid "Start debugging after last error"
-msgstr ""
+msgstr "Démarrer le débogage après la dernière erreur"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:243
 msgid "Interrupt execution and start the debugger"
-msgstr ""
+msgstr "Interrompre l'exécution et démarrer le débogueur"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:251
 msgid "Execute current line"
-msgstr ""
+msgstr "Exécuter la ligne courante"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:259
 msgid "Continue execution until next breakpoint"
@@ -1870,11 +1871,11 @@ msgstr "Continuer l'exécution jusqu'au prochain point d'arrêt"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:267
 msgid "Step into function or method"
-msgstr ""
+msgstr "Entrer dans la fonction ou la méthode"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:275
 msgid "Execute until function or method returns"
-msgstr ""
+msgstr "Exécuter jusqu'à ce que la fonction ou la méthode retourne"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:283
 msgid "Stop debugging"
@@ -1882,7 +1883,7 @@ msgstr "Arrêter le débogage"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:291
 msgid "Show the file and line where the debugger is placed in the editor"
-msgstr ""
+msgstr "Afficher le fichier et la ligne où le débogueur est placé dans l'éditeur"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:302 spyder/plugins/debugger/widgets/main_widget.py:303
 msgid "Set/Clear breakpoint"
@@ -1898,11 +1899,11 @@ msgstr "Liste des points d'arrêt"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:333 spyder/plugins/debugger/widgets/main_widget.py:460 spyder/plugins/debugger/widgets/main_widget.py:461 spyder/plugins/editor/confpage.py:74
 msgid "Show breakpoints"
-msgstr ""
+msgstr "Afficher les breakpoints"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:455 spyder/plugins/debugger/widgets/main_widget.py:456
 msgid "Hide breakpoints"
-msgstr ""
+msgstr "Masquer les points d'arrêt"
 
 #: spyder/plugins/debugger/widgets/main_widget.py:554
 msgid "The current file cannot be closed because it is in debug mode."
@@ -1958,7 +1959,7 @@ msgstr "Affichage"
 
 #: spyder/plugins/editor/confpage.py:127
 msgid "Other"
-msgstr ""
+msgstr "Autre"
 
 #: spyder/plugins/editor/confpage.py:135
 msgid "Automatic insertion of parentheses, braces and brackets"
@@ -1994,7 +1995,7 @@ msgstr "Si cette option est activée, presser la touche Tab\n"
 
 #: spyder/plugins/editor/confpage.py:155
 msgid "Automatic stripping of trailing spaces on changed lines"
-msgstr ""
+msgstr "Suppression automatique des espaces de fin sur les lignes modifiées"
 
 #: spyder/plugins/editor/confpage.py:157
 msgid "If enabled, modified lines of code (excluding strings)\n"
@@ -2104,7 +2105,7 @@ msgstr "Type de docstring"
 
 #: spyder/plugins/editor/confpage.py:283
 msgid "Here you can select the type of docstrings ({}, {} or {}) you want the editor to automatically introduce when pressing <tt>{}</tt> after a function, method or class declaration."
-msgstr ""
+msgstr "Sélectionnez ici le type de docstrings ({}, {} ou {}) que l'éditeur introduira automatiquement lorsque vous appuyez sur <tt>{}</tt> après une fonction, une méthode ou une déclaration de classe."
 
 #: spyder/plugins/editor/confpage.py:292
 msgid "Numpy"
@@ -2492,11 +2493,11 @@ msgstr "Le fichier <b>%s</b> est indisponible.<br><br>Il est possible qu'il ait 
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:2342
 msgid "The file <b>{}</b> has been modified outside Spyder.<br><br>Do you want to reload it and lose all your changes?"
-msgstr ""
+msgstr "Le fichier <b>{}</b> a été modifié en dehors de Spyder.<br><br>Voulez-vous le recharger et perdre toutes vos modifications ?"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:2362
 msgid "The file <b>{}</b> has been modified outside Spyder but it was not possible to reload it.<br><br>Therefore, it will be closed."
-msgstr ""
+msgstr "Le fichier <b>{}</b> a été modifié en dehors de Spyder mais il n'a pas été possible de le recharger.<br><br>Par conséquent, il sera fermé."
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:2481
 msgid "All changes to file <b>%s</b> will be lost.<br>Do you want to revert it from disk?"
@@ -6253,7 +6254,7 @@ msgstr ""
 
 #: spyder/plugins/updatemanager/widgets/update.py:48
 msgid "<h3>Spyder {} is available!</h3><br>"
-msgstr ""
+msgstr "<h3>Spyder {} est disponible !</h3><br>"
 
 #: spyder/plugins/updatemanager/widgets/update.py:229
 msgid "Spyder is up to date."
@@ -6261,7 +6262,7 @@ msgstr "Spyder est à jour."
 
 #: spyder/plugins/updatemanager/widgets/update.py:282
 msgid "Would you like to automatically download and install it using Spyder's installer?<br><br>We <a href='{}'>recommend our own installer</a> because it's more stable and makes updating easy. This will leave your existing Spyder installation untouched."
-msgstr ""
+msgstr "Voulez vous télécharger et installer automatiquement l'installateur de Spyder ? <br><br>Nous <a href='{}'>recommandons notre propre installeur</a> car il est plus stable et facilite la mise à jour. Cela ne modifiera pas votre installation Spyder."
 
 #: spyder/plugins/updatemanager/widgets/update.py:293 spyder/plugins/updatemanager/widgets/update.py:306 spyder/plugins/updatemanager/widgets/update.py:490
 msgid "Spyder update"
@@ -6269,7 +6270,7 @@ msgstr "Mise à jour de Spyder"
 
 #: spyder/plugins/updatemanager/widgets/update.py:303
 msgid "Would you like to automatically download and install it?"
-msgstr ""
+msgstr "Voulez-vous le télécharger et l'installer automatiquement ?"
 
 #: spyder/plugins/updatemanager/widgets/update.py:330
 msgid "Downloading Spyder {} ..."
@@ -6313,47 +6314,47 @@ msgstr "Après la fermeture"
 
 #: spyder/plugins/updatemanager/widgets/update.py:556
 msgid "Run the following command or commands in the Anaconda prompt to update manually:<br><br>"
-msgstr ""
+msgstr "Exécutez la commande ou les commandes suivantes dans l'invite Anaconda pour mettre à jour manuellement :<br><br>"
 
 #: spyder/plugins/updatemanager/widgets/update.py:560
 msgid "Run the following command in a cmd prompt to update manually:<br><br>"
-msgstr ""
+msgstr "Exécutez la commande suivante dans une invite de commande pour mettre à jour manuellement :<br><br>"
 
 #: spyder/plugins/updatemanager/widgets/update.py:564
 msgid "Run the following command or commands in a terminal to update manually:<br><br>"
-msgstr ""
+msgstr "Exécutez la commande ou les commandes suivantes dans un terminal pour mettre à jour manuellement :<br><br>"
 
 #: spyder/plugins/updatemanager/widgets/update.py:567
 msgid "Run the following command in a terminal to update manually:<br><br>"
-msgstr ""
+msgstr "Exécutez la commande suivante dans un terminal pour mettre à jour manuellement :<br><br>"
 
 #: spyder/plugins/updatemanager/widgets/update.py:586
 msgid "<b>Important note:</b> You installed Spyder with pip in a Conda environment, which is not a good idea. See <a href=\"{}\">our video</a> for more details about it."
-msgstr ""
+msgstr "<b>Note importante :</b> Vous avez installé Spyder avec pip dans un environnement Conda, ce qui n'est pas une bonne idée. Voir <a href=\"{}\">notre vidéo</a> pour plus de détails."
 
 #: spyder/plugins/updatemanager/widgets/update.py:604
 msgid "<b>Important note:</b> Since you installed Spyder with Anaconda, please don't use pip to update it as that will break your installation."
-msgstr ""
+msgstr "<b>Remarque importante :</b> Puisque vous avez installé Spyder avec Anaconda, veuillez ne pas utiliser pip pour le mettre à jour car cela va casser votre installation."
 
 #: spyder/plugins/updatemanager/widgets/update.py:613
 msgid "<br><br>For more information, visit our <a href=\"{}\">installation guide</a>."
-msgstr ""
+msgstr "<br><br>Pour plus d'informations, visitez notre guide d'installation <a href=\"{}\"></a>."
 
 #: spyder/plugins/updatemanager/workers.py:34
 msgid "Unable to connect to the Spyder update service.<br><br>Make sure your connection is working properly."
-msgstr ""
+msgstr "Impossible de se connecter au service de mise à jour de Spyder.<br><br>Assurez-vous que votre connexion fonctionne correctement."
 
 #: spyder/plugins/updatemanager/workers.py:39
 msgid "HTTP error {status_code} when checking for updates.<br><br>Make sure your connection is working properly,and try again later."
-msgstr ""
+msgstr "Erreur HTTP {status_code} lors de la vérification des mises à jour.<br><br>Assurez-vous que votre connexion fonctionne correctement, puis réessayez plus tard."
 
 #: spyder/plugins/updatemanager/workers.py:45
 msgid "SSL certificate verification failed while checking for Spyder updates.<br><br>Please contact your network administrator for assistance."
-msgstr ""
+msgstr "La vérification du certificat SSL a échoué lors de la vérification des mises à jour de Spyder.<br><br>Veuillez contacter votre administrateur réseau pour obtenir de l'aide."
 
 #: spyder/plugins/updatemanager/workers.py:322
 msgid "It was not possible to download the installer due to the following error:<br><br><tt>{}</tt>"
-msgstr ""
+msgstr "Il n'a pas été possible de télécharger l'installateur en raison de l'erreur suivante :<br><br><tt>{}</tt>"
 
 #: spyder/plugins/variableexplorer/confpage.py:20
 msgid "Filter"
