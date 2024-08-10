@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-07 23:29\n"
+"PO-Revision-Date: 2024-08-10 23:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "没有已连接的控制台"
 
 #: spyder/api/shellconnect/main_widget.py:154
 msgid "The current console has no active kernel, so there is no content to show here"
-msgstr ""
+msgstr "当前控制台没有活动的内核，因此这里没有可显示的内容"
 
 #: spyder/api/widgets/main_widget.py:259
 msgid "Main widget toolbar"
@@ -327,7 +327,7 @@ msgstr "在编辑时计算文本文件的变更差异"
 
 #: spyder/dependencies.py:135
 msgid "Access the metadata for a Python package"
-msgstr ""
+msgstr "访问 Python 软件包的元数据"
 
 #: spyder/dependencies.py:139
 msgid "Compute folding range nesting levels"
@@ -2183,7 +2183,7 @@ msgstr "运行单元格"
 
 #: spyder/plugins/editor/plugin.py:267
 msgid "Run current cell"
-msgstr ""
+msgstr "运行当前单元"
 
 #: spyder/plugins/editor/plugin.py:275
 msgid "Run cell and advance"
@@ -2247,7 +2247,7 @@ msgstr "转到文件中的符号"
 
 #: spyder/plugins/editor/utils/switcher_manager.py:83
 msgid "Search files by name (add @ for symbols)"
-msgstr ""
+msgstr "按名称搜索文件 (添加 @ 表示符号)"
 
 #: spyder/plugins/editor/utils/switcher_manager.py:120
 msgid "Select line"
@@ -2989,7 +2989,7 @@ msgstr "文件夹..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:409
 msgid "Python package..."
-msgstr ""
+msgstr "Python 软件包..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:417
 msgid "Open in Spyder"
@@ -3017,11 +3017,11 @@ msgstr "移动..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:492
 msgid "Show in folder"
-msgstr ""
+msgstr "在文件夹中显示"
 
 #: spyder/plugins/explorer/widgets/explorer.py:512
 msgid "Browse Git repository"
-msgstr ""
+msgstr "浏览 Git 代码库"
 
 #: spyder/plugins/explorer/widgets/explorer.py:528
 msgid "Edit filter settings..."
@@ -4128,7 +4128,7 @@ msgstr "环境中的新控制台"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:416 spyder/plugins/ipythonconsole/widgets/main_widget.py:1231 spyder/plugins/maininterpreter/container.py:264
 msgid "Custom"
-msgstr ""
+msgstr "自定义"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:422
 msgid "New console (default settings)"
@@ -4260,7 +4260,7 @@ msgstr "默认"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:1198 spyder/plugins/ipythonconsole/widgets/main_widget.py:1225
 msgid "Internal"
-msgstr ""
+msgstr "内部"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:1988
 msgid "Do you want to close this console?"
@@ -4470,7 +4470,7 @@ msgstr "窗口布局将被重置为默认设置：这会影响窗口的位置、
 
 #: spyder/plugins/layout/layouts.py:71
 msgid "Default layout"
-msgstr ""
+msgstr "默认布局"
 
 #: spyder/plugins/layout/layouts.py:98
 msgid "Horizontal split"
@@ -4518,31 +4518,31 @@ msgstr "快速转换布局#%s 还没有被定义。"
 
 #: spyder/plugins/layout/widgets/dialog.py:197
 msgid "Move up"
-msgstr ""
+msgstr "上移"
 
 #: spyder/plugins/layout/widgets/dialog.py:198
 msgid "Move down"
-msgstr ""
+msgstr "下移"
 
 #: spyder/plugins/layout/widgets/dialog.py:199
 msgid "Delete layout"
-msgstr ""
+msgstr "删除布局"
 
 #: spyder/plugins/layout/widgets/dialog.py:203
 msgid "Layout display and order"
-msgstr ""
+msgstr "布局显示和顺序"
 
 #: spyder/plugins/maininterpreter/confpage.py:71
 msgid "Select the default Python interpreter to create new IPython consoles and to provide code completion in the Editor"
-msgstr ""
+msgstr "选择默认的 Python 解释器来新建 IPython 控制台并在编辑器中提供代码补全"
 
 #: spyder/plugins/maininterpreter/confpage.py:77
 msgid "Internal (i.e. the same used by Spyder)"
-msgstr ""
+msgstr "内部 (即与 Spyder 所使用的相同)"
 
 #: spyder/plugins/maininterpreter/confpage.py:82
 msgid "Use the following interpreter:"
-msgstr ""
+msgstr "使用以下解释器："
 
 #: spyder/plugins/maininterpreter/confpage.py:88
 msgid "Executables"
@@ -5449,7 +5449,7 @@ msgstr "此页面上有缺失的字段。"
 
 #: spyder/plugins/remoteclient/widgets/connectiondialog.py:192
 msgid "This field is empty"
-msgstr ""
+msgstr "该字段为空"
 
 #: spyder/plugins/remoteclient/widgets/connectiondialog.py:227
 msgid "Configure SSH settings for connecting to remote hosts"
@@ -5593,15 +5593,15 @@ msgstr "用户名: {}"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:117
 msgid "Connection messages"
-msgstr ""
+msgstr "连接消息"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:119
 msgid "Copy messages"
-msgstr ""
+msgstr "复制消息"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:128
 msgid "No logs to show"
-msgstr ""
+msgstr "没有可显示的日志"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:281
 msgid "The connection hasn't been used"
@@ -5625,7 +5625,7 @@ msgstr "新建远程服务器中的控制台"
 
 #: spyder/plugins/remoteclient/widgets/container.py:237
 msgid "There was an error connecting to the server <b>{}</b>. Please check your connection is working."
-msgstr ""
+msgstr "连接到服务器 <b>{}</b> 时出错。 请检查你的连接是否正常。"
 
 #: spyder/plugins/run/confpage.py:153
 msgid "%s (copy)"
@@ -5633,15 +5633,15 @@ msgstr "%s (复制)"
 
 #: spyder/plugins/run/confpage.py:210
 msgid "The following are the global configuration presets of the different runners that can execute files in Spyder."
-msgstr ""
+msgstr "以下是可在 Spyder 中执行文件的不同运行器的全局配置的预设值。"
 
 #: spyder/plugins/run/confpage.py:219
 msgid "Configuration presets:"
-msgstr ""
+msgstr "配置预设值："
 
 #: spyder/plugins/run/confpage.py:228
 msgid "Runner:"
-msgstr ""
+msgstr "运行器："
 
 #: spyder/plugins/run/confpage.py:245
 msgid "New parameters"
@@ -5665,7 +5665,7 @@ msgstr "重置当前更改"
 
 #: spyder/plugins/run/confpage.py:288
 msgid "Global presets"
-msgstr ""
+msgstr "全局预设集"
 
 #: spyder/plugins/run/confpage.py:303
 msgid "Save all files before running script"
@@ -5777,7 +5777,7 @@ msgstr "在以下目标运行此文件:"
 
 #: spyder/plugins/run/widgets.py:584
 msgid "This is the runner that will be used for execution when you click on the Run button"
-msgstr ""
+msgstr "这是当前点击运行按钮时将被用于执行的运行器"
 
 #: spyder/plugins/run/widgets.py:594
 msgid "Preset configuration:"
@@ -5785,7 +5785,7 @@ msgstr "预设配置："
 
 #: spyder/plugins/run/widgets.py:598
 msgid "Select between global or local (i.e. for this file) configuration presets. You can set the latter below"
-msgstr ""
+msgstr "在全局或局部 (即仅用于此文件) 配置预设集之间进行选择。 你可以在下面设置后者"
 
 #: spyder/plugins/run/widgets.py:621
 msgid "Configuration properties"
@@ -5801,7 +5801,7 @@ msgstr "设置此配置的名称"
 
 #: spyder/plugins/run/widgets.py:636
 msgid "You can set as many configuration presets as you want by providing different names. Each one will be saved after clicking the Ok button below"
-msgstr ""
+msgstr "你可以通过提供不同的名称来设置任意数量的配置预设集。 每个预设集将在点击下面的确定按钮后被保存"
 
 #: spyder/plugins/run/widgets.py:694
 msgid "Custom configuration"
@@ -6407,7 +6407,7 @@ msgstr "格式（%s）不正确"
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:769 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:1744
 msgid "Display options ..."
-msgstr ""
+msgstr "显示选项 ..."
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:775 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:1734 spyder/widgets/browser.py:191 spyder/widgets/collectionseditor.py:1612
 msgid "Refresh"
@@ -7079,19 +7079,19 @@ msgstr "<invisible_root>"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:65
 msgid "{} editor preferences"
-msgstr ""
+msgstr "{} 编辑器首选项"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:70
 msgid "Formatting"
-msgstr ""
+msgstr "格式化"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:73
 msgid "<a href=\"{url}\">Format specification</a> for floats:"
-msgstr ""
+msgstr "用于浮点数的 <a href=\"{url}\">格式说明</a>："
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:80
 msgid "Use same syntax as for built-in <tt>format()</tt> function. Default is <tt>.6g</tt>."
-msgstr ""
+msgstr "使用与内置 <tt>format()</tt> 函数相同的语法。 默认为 <tt>.6g</tt>。"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:94
 msgid "Background color"
@@ -7099,39 +7099,39 @@ msgstr "背景颜色"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:98
 msgid "Use default background color"
-msgstr ""
+msgstr "使用默认的背景颜色"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:99
 msgid "Use same background color for all cells"
-msgstr ""
+msgstr "为所有单元使用相同的背景颜色"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:105
 msgid "Vary background color according to value"
-msgstr ""
+msgstr "按值显示不同背景颜色"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:106
 msgid "Use red for largest number, blue for smallest number, and intermediate colors for the other numbers."
-msgstr ""
+msgstr "使用红色表示最大的数字，蓝色表示最小的数字，中间颜色表示其他数字。"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:117
 msgid "Coloring algorithm"
-msgstr ""
+msgstr "颜色算法"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:121
 msgid "Global"
-msgstr ""
+msgstr "全局"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:122
 msgid "Compare each cell against the largest and smallest numbers in the entire dataframe"
-msgstr ""
+msgstr "将每个单元格与整个数据网格中最大和最小的数字进行比较"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:131
 msgid "Column by column"
-msgstr ""
+msgstr "逐列进行"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:132
 msgid "Compare each cell against the largest and smallest numbers in the same column"
-msgstr ""
+msgstr "将每个单元格与同一列中最大和最小的数字进行比较"
 
 #: spyder/plugins/variableexplorer/widgets/texteditor.py:95
 msgid "Text editor"
