@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-10 12:52\n"
+"PO-Revision-Date: 2024-08-10 14:19\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -2009,11 +2009,11 @@ msgstr "Retour arrière (\"backspace\") intelligent"
 
 #: spyder/plugins/editor/confpage.py:163
 msgid "Make the backspace key automatically remove the amount of indentation characters set above."
-msgstr ""
+msgstr "Faire que la touche backspace supprime automatiquement le nombre de caractères d'indentation définis ci-dessus."
 
 #: spyder/plugins/editor/confpage.py:167
 msgid "Automatic removal of trailing spaces when saving files"
-msgstr ""
+msgstr "Suppression automatique des espaces de fin lors de l'enregistrement des fichiers"
 
 #: spyder/plugins/editor/confpage.py:171
 msgid "Insert a newline at the end if one does not exist when saving a file"
@@ -2069,15 +2069,15 @@ msgstr "espaces"
 
 #: spyder/plugins/editor/confpage.py:226
 msgid "Automatic changes"
-msgstr ""
+msgstr "Changements automatiques"
 
 #: spyder/plugins/editor/confpage.py:238
 msgid "Indentation"
-msgstr ""
+msgstr "Indentation"
 
 #: spyder/plugins/editor/confpage.py:247
 msgid "Templates"
-msgstr ""
+msgstr "Modèles"
 
 #: spyder/plugins/editor/confpage.py:249
 msgid "Edit template for new files"
@@ -2177,7 +2177,7 @@ msgstr "<Aucun>"
 
 #: spyder/plugins/editor/plugin.py:170
 msgid "Edit Python, Markdown, Cython and many other types of text files."
-msgstr ""
+msgstr "Éditez Python, Markdown, Cython et de nombreux autres types de fichiers texte."
 
 #: spyder/plugins/editor/plugin.py:265
 msgid "Run cell"
@@ -2185,7 +2185,7 @@ msgstr "Exécuter la cellule"
 
 #: spyder/plugins/editor/plugin.py:267
 msgid "Run current cell"
-msgstr ""
+msgstr "Exécuter la cellule actuelle"
 
 #: spyder/plugins/editor/plugin.py:275
 msgid "Run cell and advance"
@@ -2193,7 +2193,7 @@ msgstr "Exécuter la cellule et avancer"
 
 #: spyder/plugins/editor/plugin.py:277
 msgid "Run current cell and go to the next one"
-msgstr ""
+msgstr "Exécuter la cellule actuelle et passer à la suivante"
 
 #: spyder/plugins/editor/plugin.py:286
 msgid "Re-run last cell"
@@ -2213,19 +2213,19 @@ msgstr "Exécuter la sélection ou le bloc de lignes"
 
 #: spyder/plugins/editor/plugin.py:306
 msgid "Run &to line"
-msgstr ""
+msgstr "Exécuter jusqu'à la ligne"
 
 #: spyder/plugins/editor/plugin.py:307
 msgid "Run selection up to the current line"
-msgstr ""
+msgstr "Exécuter la sélection jusqu'à la ligne actuelle"
 
 #: spyder/plugins/editor/plugin.py:316
 msgid "Run &from line"
-msgstr ""
+msgstr "Exécuter depuis la ligne"
 
 #: spyder/plugins/editor/plugin.py:317
 msgid "Run selection from the current line"
-msgstr ""
+msgstr "Exécuter la sélection à partir de la ligne actuelle"
 
 #: spyder/plugins/editor/utils/autosave.py:312
 msgid "Error while removing autosave file {}"
@@ -3940,11 +3940,11 @@ msgstr ""
 
 #: spyder/plugins/ipythonconsole/confpage.py:347
 msgid "Use autoreload"
-msgstr ""
+msgstr "Utiliser le rechargement automatique"
 
 #: spyder/plugins/ipythonconsole/confpage.py:349
 msgid "This option enables the autoreload magic.<br>Please refer to its documentation to learn how to use it."
-msgstr ""
+msgstr "Cette option active la magie de rechargement automatique.<br>Veuillez vous référer à sa documentation pour apprendre à l'utiliser."
 
 #: spyder/plugins/ipythonconsole/confpage.py:361
 msgid "Symbolic mathematics"
@@ -4008,7 +4008,7 @@ msgstr "Console IPython"
 
 #: spyder/plugins/ipythonconsole/plugin.py:220
 msgid "Run Python files, cells, code and commands interactively."
-msgstr ""
+msgstr "Exécutez les fichiers Python, les cellules, le code et les commandes de manière interactive."
 
 #: spyder/plugins/ipythonconsole/utils/client.py:67
 msgid "It was not possible to open an SSH tunnel for the remote kernel. Please check your credentials and the server connection status."
