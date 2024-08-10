@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-10 14:19\n"
+"PO-Revision-Date: 2024-08-10 15:49\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -2249,7 +2249,7 @@ msgstr "Aller au symbole dans le fichier"
 
 #: spyder/plugins/editor/utils/switcher_manager.py:83
 msgid "Search files by name (add @ for symbols)"
-msgstr ""
+msgstr "Rechercher des fichiers par nom (ajouter @ pour les symboles)"
 
 #: spyder/plugins/editor/utils/switcher_manager.py:120
 msgid "Select line"
@@ -2381,11 +2381,11 @@ msgstr "Ce fichier ne fait pas partie d'un référentiel local ou les télécomm
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:240 spyder/plugins/explorer/widgets/explorer.py:476
 msgid "Copy absolute path"
-msgstr ""
+msgstr "Copier le chemin absolu"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:247 spyder/plugins/explorer/widgets/explorer.py:483
 msgid "Copy relative path"
-msgstr ""
+msgstr "Copier le chemin relatif"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:254
 msgid "Close all to the right"
@@ -2421,11 +2421,11 @@ msgstr "Spyder ne peut pas afficher ce fichier dans l'explorateur de fichiers ex
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:414
 msgid "No available relative path"
-msgstr ""
+msgstr "Pas de chemin relatif disponible"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:415
 msgid "It is not possible to copy a relative path for this file because it is placed in a different drive than your current working directory. Please copy its absolute path."
-msgstr ""
+msgstr "Il n'est pas possible de copier un chemin relatif pour ce fichier car il est placé dans un lecteur différent de celui de votre répertoire de travail actuel. Veuillez copier son chemin absolu."
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:1143
 msgid "Temporary file"
@@ -2457,11 +2457,11 @@ msgstr "Fermer la fenêtre"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:1755
 msgid "<b>%s</b> has been modified.<br><br>Do you want to save changes?"
-msgstr ""
+msgstr "<b>%s</b> a été modifié.<br><br>Voulez-vous enregistrer les modifications ?"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:1762 spyder/widgets/collectionseditor.py:774
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:1763 spyder/plugins/editor/widgets/recover.py:186
 msgid "Discard"
@@ -2469,11 +2469,11 @@ msgstr "Jeter"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:1768
 msgid "Save all"
-msgstr ""
+msgstr "Tout enregistrer"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:1770
 msgid "Discard all"
-msgstr ""
+msgstr "Tout abandonner"
 
 #: spyder/plugins/editor/widgets/editorstack/editorstack.py:1902 spyder/plugins/editor/widgets/editorstack/editorstack.py:2093 spyder/plugins/explorer/widgets/utils.py:63
 msgid "Save Error"
@@ -2757,11 +2757,11 @@ msgstr "Remplacer les caractères de tabulation par des espaces"
 
 #: spyder/plugins/editor/widgets/main_widget.py:768
 msgid "Create new cell"
-msgstr ""
+msgstr "Créer une nouvelle cellule"
 
 #: spyder/plugins/editor/widgets/main_widget.py:770
 msgid "Create new cell at the current line"
-msgstr ""
+msgstr "Créer une nouvelle cellule à la ligne actuelle"
 
 #: spyder/plugins/editor/widgets/main_widget.py:779
 msgid "Comment current line or selection"
@@ -2974,7 +2974,7 @@ msgstr "Fichiers"
 
 #: spyder/plugins/explorer/plugin.py:163
 msgid "Explore your filesystem in a tree view."
-msgstr ""
+msgstr "Explorez votre système de fichiers dans une vue arborescente."
 
 #: spyder/plugins/explorer/widgets/explorer.py:388
 msgid "File..."
@@ -2990,7 +2990,7 @@ msgstr "Dossier..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:409
 msgid "Python package..."
-msgstr ""
+msgstr "Paquet Python..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:417
 msgid "Open in Spyder"
@@ -3018,11 +3018,11 @@ msgstr "Déplacer..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:492
 msgid "Show in folder"
-msgstr ""
+msgstr "Afficher dans le dossier"
 
 #: spyder/plugins/explorer/widgets/explorer.py:512
 msgid "Browse Git repository"
-msgstr ""
+msgstr "Parcourir le dépôt Git"
 
 #: spyder/plugins/explorer/widgets/explorer.py:528
 msgid "Edit filter settings..."
@@ -3294,11 +3294,11 @@ msgstr "Entrez une nouvelle extension de fichier. Vous pouvez ajouter plusieurs 
 
 #: spyder/plugins/externalterminal/plugin.py:50
 msgid "External terminal"
-msgstr ""
+msgstr "Terminal externe"
 
 #: spyder/plugins/externalterminal/plugin.py:54
 msgid "Run scripts in an external system terminal."
-msgstr ""
+msgstr "Exécutez des scripts dans un terminal système externe."
 
 #: spyder/plugins/externalterminal/plugin.py:225
 msgid "Running an external system terminal is not supported on platform %s."
@@ -3310,11 +3310,11 @@ msgstr "Interpréteur Python"
 
 #: spyder/plugins/externalterminal/widgets/run_conf.py:57
 msgid "Interact with the interpreter after execution"
-msgstr ""
+msgstr "Interagir avec l'interpréteur après l'exécution"
 
 #: spyder/plugins/externalterminal/widgets/run_conf.py:61
 msgid "Interpreter options:"
-msgstr ""
+msgstr "Options de l’interpréteur:"
 
 #: spyder/plugins/externalterminal/widgets/run_conf.py:67
 msgid "<b>-u</b> is added to the other options you set here"
