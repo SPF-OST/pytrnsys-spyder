@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-08 18:58\n"
+"PO-Revision-Date: 2024-08-11 11:52\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "Keine verbundene Konsole"
 
 #: spyder/api/shellconnect/main_widget.py:154
 msgid "The current console has no active kernel, so there is no content to show here"
-msgstr ""
+msgstr "Die aktuelle Konsole hat keinen aktiven Kernel, daher kann hier kein Inhalt angezeigt werden"
 
 #: spyder/api/widgets/main_widget.py:259
 msgid "Main widget toolbar"
@@ -1962,7 +1962,7 @@ msgstr "Anzeige"
 
 #: spyder/plugins/editor/confpage.py:127
 msgid "Other"
-msgstr ""
+msgstr "Andere"
 
 #: spyder/plugins/editor/confpage.py:135
 msgid "Automatic insertion of parentheses, braces and brackets"
@@ -7107,7 +7107,7 @@ msgstr ""
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:80
 msgid "Use same syntax as for built-in <tt>format()</tt> function. Default is <tt>.6g</tt>."
-msgstr ""
+msgstr "Gleiche Syntax wie bei der eingebauten Funktion <tt>format()</tt> verwenden. Standard ist <tt>.6g</tt>."
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:94
 msgid "Background color"
@@ -7127,7 +7127,7 @@ msgstr "Hintergrundfarbe je nach Wert variieren"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:106
 msgid "Use red for largest number, blue for smallest number, and intermediate colors for the other numbers."
-msgstr ""
+msgstr "Rot für die größte Zahl, Blau für die kleinste Zahl und Zwischenfarben für die anderen Zahlen verwenden."
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:117
 msgid "Coloring algorithm"
@@ -7135,11 +7135,11 @@ msgstr "Färbungsalgorithmus"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:121
 msgid "Global"
-msgstr ""
+msgstr "Global"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:122
 msgid "Compare each cell against the largest and smallest numbers in the entire dataframe"
-msgstr ""
+msgstr "Jede Zelle mit den größten und kleinsten Zahlen im gesamten Datenframe vergleichen"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:131
 msgid "Column by column"
@@ -7147,7 +7147,7 @@ msgstr "Spalte für Spalte"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:132
 msgid "Compare each cell against the largest and smallest numbers in the same column"
-msgstr ""
+msgstr "Jede Zelle mit den größten und kleinsten Zahlen in derselben Spalte vergleichen"
 
 #: spyder/plugins/variableexplorer/widgets/texteditor.py:95
 msgid "Text editor"
