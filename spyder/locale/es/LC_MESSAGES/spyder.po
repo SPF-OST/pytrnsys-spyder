@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-15 21:37\n"
+"PO-Revision-Date: 2024-08-15 22:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -3040,7 +3040,7 @@ msgstr "Mostrar en la carpeta"
 
 #: spyder/plugins/explorer/widgets/explorer.py:512
 msgid "Browse Git repository"
-msgstr ""
+msgstr "Explorar repositorio de Git"
 
 #: spyder/plugins/explorer/widgets/explorer.py:528
 msgid "Edit filter settings..."
@@ -4499,7 +4499,7 @@ msgstr "La disposición de componentes será restablecida a los ajustes por defe
 
 #: spyder/plugins/layout/layouts.py:71
 msgid "Default layout"
-msgstr ""
+msgstr "Disposición por defecto"
 
 #: spyder/plugins/layout/layouts.py:98
 msgid "Horizontal split"
@@ -4547,19 +4547,19 @@ msgstr "Aún no se ha definido la disposición de componentes #%d."
 
 #: spyder/plugins/layout/widgets/dialog.py:197
 msgid "Move up"
-msgstr ""
+msgstr "Mover hacia arriba"
 
 #: spyder/plugins/layout/widgets/dialog.py:198
 msgid "Move down"
-msgstr ""
+msgstr "Mover hacia abajo"
 
 #: spyder/plugins/layout/widgets/dialog.py:199
 msgid "Delete layout"
-msgstr ""
+msgstr "Eliminar disposición"
 
 #: spyder/plugins/layout/widgets/dialog.py:203
 msgid "Layout display and order"
-msgstr ""
+msgstr "Visualización y orden de las disposiciones"
 
 #: spyder/plugins/maininterpreter/confpage.py:71
 msgid "Select the default Python interpreter to create new IPython consoles and to provide code completion in the Editor"
@@ -4567,11 +4567,11 @@ msgstr "Seleccione el intérprete predeterminado de Python para crear nuevas ter
 
 #: spyder/plugins/maininterpreter/confpage.py:77
 msgid "Internal (i.e. the same used by Spyder)"
-msgstr ""
+msgstr "Interno (es decir, el mismo utilizado por Spyder)"
 
 #: spyder/plugins/maininterpreter/confpage.py:82
 msgid "Use the following interpreter:"
-msgstr ""
+msgstr "Usar el siguiente intérprete:"
 
 #: spyder/plugins/maininterpreter/confpage.py:88
 msgid "Executables"
@@ -5479,7 +5479,7 @@ msgstr "Faltan campos en esta página."
 
 #: spyder/plugins/remoteclient/widgets/connectiondialog.py:192
 msgid "This field is empty"
-msgstr ""
+msgstr "Este campo está vacío"
 
 #: spyder/plugins/remoteclient/widgets/connectiondialog.py:227
 msgid "Configure SSH settings for connecting to remote hosts"
@@ -5623,15 +5623,15 @@ msgstr "Nombre de usuario: {}"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:117
 msgid "Connection messages"
-msgstr ""
+msgstr "Mensajes de la conexión"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:119
 msgid "Copy messages"
-msgstr ""
+msgstr "Copiar mensajes"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:128
 msgid "No logs to show"
-msgstr ""
+msgstr "No hay registros para mostrar"
 
 #: spyder/plugins/remoteclient/widgets/connectionstatus.py:281
 msgid "The connection hasn't been used"
@@ -5655,7 +5655,7 @@ msgstr "Nueva terminal en servidor remoto"
 
 #: spyder/plugins/remoteclient/widgets/container.py:237
 msgid "There was an error connecting to the server <b>{}</b>. Please check your connection is working."
-msgstr ""
+msgstr "Hubo un error al conectarse al servidor <b>{}</b>. Por favor, compruebe que su conexión está funcionando."
 
 #: spyder/plugins/run/confpage.py:153
 msgid "%s (copy)"
@@ -5663,15 +5663,15 @@ msgstr "%s (copia)"
 
 #: spyder/plugins/run/confpage.py:210
 msgid "The following are the global configuration presets of the different runners that can execute files in Spyder."
-msgstr ""
+msgstr "Las siguientes son las configuraciones globales de ajustes de los diferentes corredore que pueden ejecutar archivos en Spyder."
 
 #: spyder/plugins/run/confpage.py:219
 msgid "Configuration presets:"
-msgstr ""
+msgstr "Configuracione de ajustes:"
 
 #: spyder/plugins/run/confpage.py:228
 msgid "Runner:"
-msgstr ""
+msgstr "Ejecutor:"
 
 #: spyder/plugins/run/confpage.py:245
 msgid "New parameters"
@@ -5695,7 +5695,7 @@ msgstr "Restablecer los cambios actuales"
 
 #: spyder/plugins/run/confpage.py:288
 msgid "Global presets"
-msgstr ""
+msgstr "Ajustes globales"
 
 #: spyder/plugins/run/confpage.py:303
 msgid "Save all files before running script"
@@ -5807,7 +5807,7 @@ msgstr "Ejecutar este archivo en:"
 
 #: spyder/plugins/run/widgets.py:584
 msgid "This is the runner that will be used for execution when you click on the Run button"
-msgstr ""
+msgstr "Este es el corredor que se utilizará para la ejecución cuando haga clic en el botón Ejecutar"
 
 #: spyder/plugins/run/widgets.py:594
 msgid "Preset configuration:"
@@ -5815,7 +5815,7 @@ msgstr "Configuración preestablecida:"
 
 #: spyder/plugins/run/widgets.py:598
 msgid "Select between global or local (i.e. for this file) configuration presets. You can set the latter below"
-msgstr ""
+msgstr "Seleccione entre ajuste de configuración globales o locales (es decir, únicamente para este archivo). Puede establecer estos últimos a continuación"
 
 #: spyder/plugins/run/widgets.py:621
 msgid "Configuration properties"
@@ -5831,7 +5831,7 @@ msgstr "Establezca un nombre para esta configuración"
 
 #: spyder/plugins/run/widgets.py:636
 msgid "You can set as many configuration presets as you want by providing different names. Each one will be saved after clicking the Ok button below"
-msgstr ""
+msgstr "Puede establecer tantos ajustes de configuración como desee proporcionando diferentes nombres. Cada uno se guardará después de hacer clic en el botón Ok de abajo"
 
 #: spyder/plugins/run/widgets.py:694
 msgid "Custom configuration"
@@ -6437,7 +6437,7 @@ msgstr "El formato (%s) es incorrecto"
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:769 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:1744
 msgid "Display options ..."
-msgstr ""
+msgstr "Opciones visuales..."
 
 #: spyder/plugins/variableexplorer/widgets/arrayeditor.py:775 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:1734 spyder/widgets/browser.py:191 spyder/widgets/collectionseditor.py:1612
 msgid "Refresh"
@@ -7109,19 +7109,19 @@ msgstr "<invisible_root>"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:65
 msgid "{} editor preferences"
-msgstr ""
+msgstr "{} preferencias del editor"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:70
 msgid "Formatting"
-msgstr ""
+msgstr "Formato"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:73
 msgid "<a href=\"{url}\">Format specification</a> for floats:"
-msgstr ""
+msgstr "<a href=\"{url}\">Especificación de formato</a> para números de punto flotante:"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:80
 msgid "Use same syntax as for built-in <tt>format()</tt> function. Default is <tt>.6g</tt>."
-msgstr ""
+msgstr "Usar la misma sintaxis que para la función <tt>format()</tt> . Por defecto es <tt>.6g</tt>."
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:94
 msgid "Background color"
@@ -7129,39 +7129,39 @@ msgstr "Color de fondo"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:98
 msgid "Use default background color"
-msgstr ""
+msgstr "Usar color de fondo por defecto"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:99
 msgid "Use same background color for all cells"
-msgstr ""
+msgstr "Usar el mismo color de fondo para todas las celdas"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:105
 msgid "Vary background color according to value"
-msgstr ""
+msgstr "Variar el color de fondo según el valor"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:106
 msgid "Use red for largest number, blue for smallest number, and intermediate colors for the other numbers."
-msgstr ""
+msgstr "Usar rojo para el número más grande, azul para el número más pequeño, y colores intermedios para los otros números."
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:117
 msgid "Coloring algorithm"
-msgstr ""
+msgstr "Algoritmo de coloración"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:121
 msgid "Global"
-msgstr ""
+msgstr "Global"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:122
 msgid "Compare each cell against the largest and smallest numbers in the entire dataframe"
-msgstr ""
+msgstr "Comparar cada celda con los números más grandes y más pequeños en todo el dataframe"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:131
 msgid "Column by column"
-msgstr ""
+msgstr "Columna a columna"
 
 #: spyder/plugins/variableexplorer/widgets/preferences.py:132
 msgid "Compare each cell against the largest and smallest numbers in the same column"
-msgstr ""
+msgstr "Comparar cada celda con los números más grandes y más pequeños en la misma columna"
 
 #: spyder/plugins/variableexplorer/widgets/texteditor.py:95
 msgid "Text editor"
