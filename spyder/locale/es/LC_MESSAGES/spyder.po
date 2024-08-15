@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2024-08-07 18:05-0500\n"
-"PO-Revision-Date: 2024-08-07 23:29\n"
+"PO-Revision-Date: 2024-08-15 21:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -31,11 +31,11 @@ msgstr "Plugins"
 
 #: spyder/api/shellconnect/main_widget.py:153
 msgid "No connected console"
-msgstr "Sin consola conectada"
+msgstr "Sin terminal conectada"
 
 #: spyder/api/shellconnect/main_widget.py:154
 msgid "The current console has no active kernel, so there is no content to show here"
-msgstr ""
+msgstr "La terminal actual no pudo iniciarse, así que no hay contenido que mostrar aquí"
 
 #: spyder/api/widgets/main_widget.py:259
 msgid "Main widget toolbar"
@@ -327,7 +327,7 @@ msgstr "Calcular las diferencias de archivos de texto durante la edición"
 
 #: spyder/dependencies.py:135
 msgid "Access the metadata for a Python package"
-msgstr ""
+msgstr "Accede a los metadatos de un paquete Python"
 
 #: spyder/dependencies.py:139
 msgid "Compute folding range nesting levels"
@@ -1491,7 +1491,7 @@ msgstr "Terminal interna"
 
 #: spyder/plugins/console/plugin.py:91
 msgid "An internal Python console running Spyder itself."
-msgstr "Una consola interna de Python ejecutando Spyder en sí mismo."
+msgstr "Una terminal interna de Python ejecutando Spyder en sí mismo."
 
 #: spyder/plugins/console/plugin.py:114
 msgid "<h3>Spyder crashed during last session</h3>"
@@ -2197,7 +2197,7 @@ msgstr "Ejecutar la celda"
 
 #: spyder/plugins/editor/plugin.py:267
 msgid "Run current cell"
-msgstr ""
+msgstr "Ejecutar la celda actual"
 
 #: spyder/plugins/editor/plugin.py:275
 msgid "Run cell and advance"
@@ -2261,7 +2261,7 @@ msgstr "Ir al símbolo en un archivo"
 
 #: spyder/plugins/editor/utils/switcher_manager.py:83
 msgid "Search files by name (add @ for symbols)"
-msgstr ""
+msgstr "Buscar archivos por nombre (añada @ para símbolos)"
 
 #: spyder/plugins/editor/utils/switcher_manager.py:120
 msgid "Select line"
@@ -3008,7 +3008,7 @@ msgstr "Carpeta..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:409
 msgid "Python package..."
-msgstr ""
+msgstr "Paquete de Python..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:417
 msgid "Open in Spyder"
@@ -3036,7 +3036,7 @@ msgstr "Mover a..."
 
 #: spyder/plugins/explorer/widgets/explorer.py:492
 msgid "Show in folder"
-msgstr ""
+msgstr "Mostrar en la carpeta"
 
 #: spyder/plugins/explorer/widgets/explorer.py:512
 msgid "Browse Git repository"
@@ -3668,7 +3668,7 @@ msgstr "Historial"
 
 #: spyder/plugins/history/plugin.py:60
 msgid "View command history for the IPython console."
-msgstr "Ver historial de comandos para la Terminal de IPython."
+msgstr "Ver historial de comandos para las terminales de IPython."
 
 #: spyder/plugins/ipythonconsole/confpage.py:29
 msgid "Display initial banner"
@@ -4157,7 +4157,7 @@ msgstr "Nueva terminal en entorno"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:416 spyder/plugins/ipythonconsole/widgets/main_widget.py:1231 spyder/plugins/maininterpreter/container.py:264
 msgid "Custom"
-msgstr ""
+msgstr "Personalizada"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:422
 msgid "New console (default settings)"
@@ -4289,7 +4289,7 @@ msgstr "Por defecto"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:1198 spyder/plugins/ipythonconsole/widgets/main_widget.py:1225
 msgid "Internal"
-msgstr ""
+msgstr "Interno"
 
 #: spyder/plugins/ipythonconsole/widgets/main_widget.py:1988
 msgid "Do you want to close this console?"
@@ -4563,7 +4563,7 @@ msgstr ""
 
 #: spyder/plugins/maininterpreter/confpage.py:71
 msgid "Select the default Python interpreter to create new IPython consoles and to provide code completion in the Editor"
-msgstr ""
+msgstr "Seleccione el intérprete predeterminado de Python para crear nuevas terminales de IPython y para proporcionar el completado de código en el Editor"
 
 #: spyder/plugins/maininterpreter/confpage.py:77
 msgid "Internal (i.e. the same used by Spyder)"
