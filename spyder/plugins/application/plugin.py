@@ -62,6 +62,9 @@ class Application(SpyderPluginV2):
     def on_initialize(self):
         container = self.get_container()
         container.sig_report_issue_requested.connect(self.report_issue)
+        container.sig_open_file_using_dialog_requested.connect(
+            self.open_file_using_dialog
+        )
         container.set_window(self._window)
 
     # --------------------- PLUGIN INITIALIZATION -----------------------------
@@ -426,6 +429,21 @@ class Application(SpyderPluginV2):
             print(error)  # spyder: test-skip
             print(command)  # spyder: test-skip
 
+    def open_file_using_dialog(self):
+        """
+        Show Open File dialog and open the selected file.
+
+        Get the currently displayed file from the Editor plugin. The rest of
+        the implementation is in the container widget.
+        """
+        current_filename = basedir = None
+        editor = self.get_plugin(Plugins.Editor, error=False)
+        if editor:
+            current_filename = editor.get_current_filename()
+            if current_filename and current_filename != editor.TEMPFILE_PATH:
+                basedir = osp.dirname(current_filename)
+        self.get_container().open_file_using_dialog(current_filename, basedir)
+        
     @property
     def documentation_action(self):
         """Open Spyder's Documentation in the browser."""

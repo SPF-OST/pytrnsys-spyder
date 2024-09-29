@@ -11,25 +11,32 @@ Holds references for base actions in the Application of Spyder.
 """
 
 # Standard library imports
-import os
-import sys
 import glob
+import os
+import os.path as osp
+import sys
+from typing import Optional
 
 # Third party imports
-from qtpy.QtCore import Qt, QThread, QTimer, Signal, Slot
+from qtpy.compat import getopenfilenames
+from qtpy.QtCore import QDir, Qt, QThread, QTimer, Signal, Slot
 from qtpy.QtGui import QGuiApplication
-from qtpy.QtWidgets import QAction, QMessageBox, QPushButton
+from qtpy.QtWidgets import QAction, QFileDialog, QMessageBox, QPushButton
 
 # Local imports
 from spyder import __docs_url__, __forum_url__, __trouble_url__
 from spyder import dependencies
 from spyder.api.translations import _
 from spyder.api.widgets.main_container import PluginMainContainer
-from spyder.utils.installers import InstallerMissingDependencies
-from spyder.config.base import get_conf_path, get_debug_level
+from spyder.config.base import (get_conf_path, get_debug_level,
+                                running_under_pytest)
+from spyder.config.utils import (get_edit_filetypes, get_edit_filters,
+                                 get_filter)
 from spyder.plugins.application.widgets import AboutDialog, InAppAppealStatus
 from spyder.plugins.console.api import ConsoleActions
 from spyder.utils.environ import UserEnvDialog
+from spyder.utils.installers import InstallerMissingDependencies
+from spyder.utils.misc import getcwd_or_home
 from spyder.utils.qthelpers import start_file, DialogManager
 from spyder.widgets.dependencies import DependenciesDialog
 from spyder.widgets.helperwidgets import MessageCheckBox
@@ -79,6 +86,22 @@ class ApplicationContainer(PluginMainContainer):
     """
     Signal to load a log file
     """
+    
+    sig_open_file_using_dialog_requested = Signal()
+    """
+    Signal to request opening a file using the Open File dialog.
+    
+    This is sent when the "Open file" menu item or toolbar button is clicked.
+    """
+
+    sig_open_file_in_plugin_requested = Signal(str)
+    """
+    Signal to request opening a given file in a suitable plugin.
+
+    Arguments
+    ---------
+        filename : str
+    """
 
     def __init__(self, name, plugin, parent=None):
         super().__init__(name, plugin, parent)
@@ -86,6 +109,10 @@ class ApplicationContainer(PluginMainContainer):
         # Keep track of dpi message
         self.current_dpi = None
         self.dpi_messagebox = None
+
+        # File types and filters used by the Open dialog
+        self.edit_filetypes = None
+        self.edit_filters = None
 
     # ---- PluginMainContainer API
     # -------------------------------------------------------------------------
@@ -186,7 +213,7 @@ class ApplicationContainer(PluginMainContainer):
             text=_("&Open..."),
             icon=self.create_icon('fileopen'),
             tip=_("Open file"),
-            triggered=self.open_file_using_dialog,
+            triggered=self.sig_open_file_using_dialog_requested,
             context=Qt.ApplicationShortcut,
             shortcut_context="_",
             register_shortcut=True
@@ -338,11 +365,66 @@ class ApplicationContainer(PluginMainContainer):
 
     # ---- File actions
     # -------------------------------------------------------------------------
-    def open_file_using_dialog(self):
+    def open_file_using_dialog(
+            self,
+            current_filename: Optional[str],
+            basedir: Optional[str]
+    ):
         """Show Open File dialog and open the selected file"""
-        # For the moment, we use the function in the Editor plugin.
-        # This is only a temporary hack so it is not done properly.
-        self._plugin.main.editor.get_widget().load()
+        if basedir is None:
+            basedir = getcwd_or_home()
+            
+        if self.edit_filetypes is None:
+            self.edit_filetypes = get_edit_filetypes()
+        if self.edit_filters is None:
+            self.edit_filters = get_edit_filters()
+
+        self.sig_redirect_stdio_requested.emit(False)
+        if current_filename is not None:
+            selectedfilter = get_filter(
+                self.edit_filetypes,
+                osp.splitext(current_filename)[1]
+            )
+        else:
+            selectedfilter = ''
+
+        if not running_under_pytest():
+            # See: spyder-ide/spyder#3291
+            if sys.platform == 'darwin':
+                dialog = QFileDialog(
+                    parent=None,
+                    caption=_("Open file"),
+                    directory=basedir,
+                )
+                dialog.setNameFilters(self.edit_filters.split(';;'))
+                dialog.setOption(QFileDialog.HideNameFilterDetails, True)
+                dialog.setFilter(QDir.AllDirs | QDir.Files | QDir.Drives
+                                 | QDir.Hidden)
+                dialog.setFileMode(QFileDialog.ExistingFiles)
+
+                if dialog.exec_():
+                    filenames = dialog.selectedFiles()
+            else:
+                filenames, _sf = getopenfilenames(
+                    None,
+                    _("Open file"),
+                    basedir,
+                    self.edit_filters,
+                    selectedfilter=selectedfilter,
+                    options=QFileDialog.HideNameFilterDetails,
+                )
+        else:
+            # Use a Qt (i.e. scriptable) dialog for pytest
+            dialog = QFileDialog(None, _("Open file"),
+                                 options=QFileDialog.DontUseNativeDialog)
+            if dialog.exec_():
+                filenames = dialog.selectedFiles()
+
+        self.sig_redirect_stdio_requested.emit(True)
+
+        for filename in filenames:
+            filename = osp.normpath(filename)
+            self.sig_open_file_in_plugin_requested(filename)
 
     # ---- Log files
     # -------------------------------------------------------------------------
