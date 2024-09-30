@@ -177,7 +177,6 @@ class Editor(SpyderDockablePlugin):
 
     def on_initialize(self):
         widget = self.get_widget()
-        self.TEMPFILE_PATH = widget.TEMPFILE_PATH
 
         # ---- Help related signals
         widget.sig_help_requested.connect(self.sig_help_requested)
