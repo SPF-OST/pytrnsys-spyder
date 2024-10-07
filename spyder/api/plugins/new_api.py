@@ -1066,7 +1066,7 @@ class SpyderDockablePlugin(SpyderPluginV2):
         This function is used in the `Open file` action to initialize the
         "Open file" dialog.
         """
-        return self.get_widget().get_current_filename()
+        return None
 
     def current_file_is_temporary(self) -> bool:
         """
