@@ -479,7 +479,7 @@ class Application(SpyderPluginV2):
         For the moment, this creates a new file in the Editor plugin.
         """
         plugin = self.get_plugin(Plugins.Editor)
-        plugin.get_widget().new()
+        plugin.new()
 
     def open_file_using_dialog(self) -> None:
         """
